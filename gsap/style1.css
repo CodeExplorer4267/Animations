@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color:white;
+}
+#circle{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+#box1{
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+#box2{
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-color: rgb(23, 89, 147);
+    margin-bottom: 10px;
+}
+#box3{
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-color: rgb(39, 159, 61);
+    margin-bottom: 10px;
+}
