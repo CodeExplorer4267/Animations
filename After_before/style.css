@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-size: 120px;
+    -webkit-text-stroke: 2px #ca4747;
+    position: relative;
+    overflow: hidden;
+}
+h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #ca4747;
+    animation: move 2s infinite;
+}
+@keyframes move {
+    0% {
+       width: 0%;
+    }
+    100% {
+       width: 100%;
+    }
+}
