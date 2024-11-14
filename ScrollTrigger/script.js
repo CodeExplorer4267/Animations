@@ -22,5 +22,9 @@ gsap.from('#page3 .box',{
     scale:0,
     rotate:360,
     duration:1,
-    // scrollTrigger:'#page3 .box'
+    scrollTrigger:{
+        trigger:'#page3 .box',
+        scroller:'body',
+        scrub:2
+    }
 })
